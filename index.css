@@ -72,6 +72,51 @@ ul li a {
 .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    padding: 30px;
+    align-items: center;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.top-left {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    align-items: center;
+}
+
+.top-left > img {
+    justify-self: center;
+}
+
+.top-right {
+    justify-self: end;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 5px;
+}
+
+.top-right span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.top-right > .avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.header-img {
+    width: 20px;
+    height: 20px;
+}
+
+.header-search {
+    border-radius: 20px;
+    background-color: lightgray;
 }
 
 .content {
